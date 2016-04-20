@@ -1,10 +1,13 @@
 {
     "compilerOptions": {
         "target": "es5",
-        "out": "www/js/bundle.js",
+        "out": "../www/js/bundle.js",
         "sourceMap": true,
         "declaration": true,
         "removeComments": true,
         "sourceRoot": ""
-    }
+    },
+    "exclude": [
+        "node_modules"
+    ]
 }
